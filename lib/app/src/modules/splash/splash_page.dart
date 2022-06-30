@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_modular/flutter_modular.dart';
 import 'package:one_context/one_context.dart';
 
 class SplashPage extends StatelessWidget {
+  static const String route = '/';
   const SplashPage({Key? key}) : super(key: key);
 
   @override
@@ -24,7 +26,7 @@ class SplashPage extends StatelessWidget {
                     style: ButtonStyle(
                       backgroundColor: MaterialStateProperty.all<Color>(Colors.green),
                     ), onPressed: () {
-                      
+                      Modular.to.pushNamed('/home_page');
                     },
                     child: const Text(
                       'Acessar o conversor',
