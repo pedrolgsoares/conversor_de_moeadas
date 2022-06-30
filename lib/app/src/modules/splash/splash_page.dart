@@ -14,12 +14,26 @@ class SplashPage extends StatelessWidget {
             Icon(
               Icons.monetization_on,
               //obter 80% da largura do dispositivo
-              size: MediaQuery.of(OneContext().context!).size.width * 0.8,
+              size: MediaQuery.of(OneContext().context!).size.width * 0.85,
               color: Colors.green,
               ),
-            ElevatedButton(
-              onPressed: () {},
-              child: const Text('Looks like a RaisedButton'),
+            SizedBox(
+              height: 100,
+              width: MediaQuery.of(OneContext().context!).size.width * 1.0,
+              child: ElevatedButton(
+                    style: ButtonStyle(
+                      backgroundColor: MaterialStateProperty.all<Color>(Colors.green),
+                    ), onPressed: () {
+                      
+                    },
+                    child: const Text(
+                      'Acessar o conversor',
+                      style: TextStyle(
+                        fontSize: 20,
+                        fontWeight: FontWeight.bold
+                      ),
+                      ),
+)
             )
           ],
         ),
