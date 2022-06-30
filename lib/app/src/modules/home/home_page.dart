@@ -7,10 +7,16 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return  Scaffold(
-      backgroundColor: Colors.black,
       appBar: AppBar(
         title: const Text('Conversor de moedas'),
         centerTitle: true,
+      ),
+      body: Center(
+        child: Column(
+          children: const [
+            
+          ],
+        ),
       ),
     );
   }
