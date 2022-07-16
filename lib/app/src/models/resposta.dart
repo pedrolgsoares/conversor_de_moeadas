@@ -1,3 +1,5 @@
+import 'package:conversor_de_moedas/app/src/models/results.dart';
+
 class Resposta {
   String? by;
   bool? validKey;
