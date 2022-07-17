@@ -1,4 +1,4 @@
-import 'package:conversor_de_moedas/app/src/models/response_data.dart';
+import 'package:conversor_de_moedas/src/app/models/response_data.dart';
 import 'package:dio/dio.dart';
 
 class HomeRepository{
