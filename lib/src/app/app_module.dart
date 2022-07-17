@@ -1,4 +1,4 @@
-import 'package:conversor_de_moedas/src/app/modules/home/home_page.dart';
+import 'package:conversor_de_moedas/src/app/modules/home/pages/home_page.dart';
 import 'package:conversor_de_moedas/src/app/modules/home/home_page_module.dart';
 import 'package:conversor_de_moedas/src/app/modules/splash/splash_module.dart';
 import 'package:flutter_modular/flutter_modular.dart';
